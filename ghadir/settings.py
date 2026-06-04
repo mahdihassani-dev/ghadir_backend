@@ -63,8 +63,8 @@ CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
 ]
 
-SESSION_COOKIE_SAMESITE = 'None'  # If cross-origin requests are needed
-SESSION_COOKIE_SECURE = True  # Use True in production with HTTPS
+SESSION_COOKIE_SAMESITE = 'Lax'  # از None به Lax تغییر بده
+SESSION_COOKIE_SECURE = False    # از True به False تغییر بده
 
 CORS_ALLOW_CREDENTIALS = True
 
